@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Attention에서 KV cache까지</title><desc id="desc">문장 안의 관계 계산이 반복 생성 과정의 KV cache와 메모리 관리 문제로 이어지는 흐름</desc>
+  <rect width="1200" height="560" fill="#f7faf9"/><text x="70" y="80" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">언어의 관계를 계산하는 이론이 서빙의 메모리 문제로 이어졌다</text>
+  <g font-family="Arial, sans-serif"><g fill="#fff" stroke="#cbd5e1" stroke-width="2"><rect x="70" y="150" width="270" height="250" rx="20"/><rect x="465" y="150" width="270" height="250" rx="20"/><rect x="860" y="150" width="270" height="250" rx="20"/></g>
+  <g font-size="27" font-weight="700"><text x="120" y="205" fill="#1e40af">Attention</text><text x="535" y="205" fill="#6d28d9">KV cache</text><text x="900" y="205" fill="#047857">페이지 단위 관리</text></g>
+  <g font-size="19" fill="#475569"><text x="105" y="260">현재 토큰이 문장 안의</text><text x="105" y="295">어떤 정보를 참고할지</text><text x="105" y="330">관계의 가중치를 계산</text><text x="500" y="260">이미 계산한 Key와 Value를</text><text x="500" y="295">매 생성 단계마다 다시</text><text x="500" y="330">계산하지 않도록 저장</text><text x="895" y="260">연속된 큰 공간 대신</text><text x="895" y="295">작은 블록으로 나누어</text><text x="895" y="330">메모리 낭비를 줄임</text></g>
+  <g stroke="#64748b" stroke-width="4" fill="none"><path d="M340 275h115"/><path d="M735 275h115"/></g><g fill="#64748b"><path d="M455 275l-16-10v20z"/><path d="M850 275l-16-10v20z"/></g><text x="70" y="480" font-size="20" fill="#475569">NLP 이론 → 반복 생성의 계산 비용 → 운영 환경의 처리량과 메모리 효율</text></g>
+</svg>

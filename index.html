@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romeo의 기술 블로그</title>
+  <meta name="description" content="Upstage AI 부트캠프에서 공부하고 실습한 내용을 기록하는 기술 블로그">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://aibc24-hwirim.github.io/romeo.hseo.github.io/">
+  <link rel="stylesheet" href="assets/css/blog.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="index.html">Romeo의 기술 블로그</a>
+      <nav aria-label="주요 메뉴">
+        <a href="#posts">전체 글</a>
+        <a href="https://github.com/aibc24-hwirim/romeo.hseo.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="blog-intro" aria-labelledby="introTitle">
+      <p class="intro-label">AI Bootcamp Study Notes</p>
+      <h1 id="introTitle">배운 내용을 직접 정리하는 공간</h1>
+      <p>Python 기초부터 머신러닝, 딥러닝, 자연어 처리, 추천 시스템과 프로젝트 회고까지 학습 과정에서 이해한 내용을 차근차근 기록합니다.</p>
+      <ul class="topic-list" aria-label="주요 기술 주제">
+        <li>Python</li><li>Machine Learning</li><li>PyTorch</li><li>NLP</li><li>Computer Vision</li><li>RAG</li><li>RecSys</li><li>MLOps</li>
+      </ul>
+    </section>
+
+    <section class="post-section" id="posts" aria-labelledby="postListTitle">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">POSTS</p>
+          <h2 id="postListTitle">전체 글</h2>
+        </div>
+        <p aria-live="polite"><span id="visiblePartsCount">0</span>개의 글</p>
+      </div>
+
+      <div class="post-tools">
+        <label class="search-field" for="searchInput">
+          <span>검색</span>
+          <input type="search" id="searchInput" placeholder="제목이나 기술 키워드를 입력하세요" autocomplete="off">
+        </label>
+        <div class="category-tabs" id="categoryTabs" aria-label="글 분류">
+          <button class="tab-btn active" type="button" data-category="All">전체</button>
+          <button class="tab-btn" type="button" data-category="경진대회">프로젝트·경진대회</button>
+          <button class="tab-btn" type="button" data-category="파이썬">Python·CS·Git</button>
+          <button class="tab-btn" type="button" data-category="자연어 처리">NLP·LLM</button>
+          <button class="tab-btn" type="button" data-category="부트캠프 회고">회고·커리어</button>
+        </div>
+      </div>
+
+      <div id="blogContainer" class="post-list"></div>
+      <noscript><p class="empty-state">글 목록을 보려면 JavaScript를 활성화해 주세요.</p></noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Romeo의 AI 부트캠프 학습 기록</p>
+    <p>Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="assets/js/techBlogData.js?v=20260816"></script>
+  <script src="assets/js/app.js?v=20260816"></script>
+</body>
+</html>

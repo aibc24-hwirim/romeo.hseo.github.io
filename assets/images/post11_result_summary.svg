@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">일상대화 요약 경진대회 결과 기록</title>
+  <desc id="desc">세부 모델과 실험 설정을 제외하고 최종 평가 결과와 프로젝트에서 확인한 원칙을 요약한다.</desc>
+  <rect width="1400" height="760" fill="#f8f7f4"/>
+  <rect x="76" y="70" width="1248" height="620" rx="20" fill="#ffffff" stroke="#ddd9d1" stroke-width="2"/>
+  <text x="132" y="150" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="34" font-weight="700" fill="#202126">일상대화 요약 프로젝트 결과</text>
+  <text x="132" y="198" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="20" fill="#74716d">세부 모델과 실험 설정은 공개하지 않고 최종 결과만 남겼다.</text>
+  <rect x="132" y="266" width="440" height="294" rx="16" fill="#f4eee9"/>
+  <text x="176" y="330" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#85624e">FINAL SCORE</text>
+  <text x="176" y="430" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="78" font-weight="700" fill="#a95439">53.1138</text>
+  <text x="176" y="488" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="19" fill="#7b716c">대회 최종 환산 점수</text>
+  <text x="680" y="312" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#2d2e33">직접 확인한 기준</text>
+  <circle cx="696" cy="374" r="7" fill="#a95439"/>
+  <text x="726" y="382" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="22" fill="#3b3d44">핵심 내용이 빠지지 않았는가</text>
+  <circle cx="696" cy="440" r="7" fill="#a95439"/>
+  <text x="726" y="448" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="22" fill="#3b3d44">원문에 없는 내용을 만들지 않았는가</text>
+  <circle cx="696" cy="506" r="7" fill="#a95439"/>
+  <text x="726" y="514" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="22" fill="#3b3d44">점수와 사람이 읽은 결과가 함께 좋아졌는가</text>
+  <text x="132" y="632" font-family="Pretendard, Noto Sans KR, sans-serif" font-size="19" fill="#77746f">구현 방법보다 원문과 생성 결과를 함께 읽고 판단한 과정을 기록했다.</text>
+</svg>

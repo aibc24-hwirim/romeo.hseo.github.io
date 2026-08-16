@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">자연어 모델의 변천 흐름</title><desc id="desc">RNN에서 LSTM, Seq2Seq와 Attention, Transformer, BERT와 GPT로 이어지는 문제 해결의 흐름</desc>
+  <rect width="1200" height="520" fill="#f8fafc"/><text x="70" y="80" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">모델 이름보다, 어떤 한계를 해결했는가</text>
+  <g font-family="Arial, sans-serif"><g fill="#fff" stroke="#cbd5e1" stroke-width="2">
+    <rect x="70" y="155" width="180" height="170" rx="18"/><rect x="290" y="155" width="180" height="170" rx="18"/><rect x="510" y="155" width="180" height="170" rx="18"/><rect x="730" y="155" width="180" height="170" rx="18"/><rect x="950" y="155" width="180" height="170" rx="18"/>
+  </g><g font-size="25" font-weight="700" fill="#1e3a8a"><text x="125" y="205">RNN</text><text x="340" y="205">LSTM</text><text x="535" y="205">Attention</text><text x="755" y="205">Transformer</text><text x="992" y="205">BERT · GPT</text></g>
+  <g font-size="18" fill="#475569"><text x="94" y="250">순서대로 문장을</text><text x="118" y="278">읽기 시작</text><text x="315" y="250">긴 문맥의 정보를</text><text x="326" y="278">더 오래 유지</text><text x="535" y="250">관련 단어를 직접</text><text x="550" y="278">참조하도록 계산</text><text x="755" y="250">병렬 처리와 긴</text><text x="767" y="278">관계 학습</text><text x="975" y="250">사전학습 모델을</text><text x="969" y="278">여러 작업에 활용</text></g>
+  <g stroke="#64748b" stroke-width="3" fill="none"><path d="M250 240h35"/><path d="M470 240h35"/><path d="M690 240h35"/><path d="M910 240h35"/></g>
+  <text x="70" y="405" font-size="22" fill="#334155">기억 손실 → 긴 문맥 → 관계 계산 → 병렬화 → 범용 언어 모델</text><text x="70" y="450" font-size="18" fill="#64748b">각 구조는 이전 모델이 놓친 언어의 문맥을 더 잘 보존하려는 시도였다.</text></g>
+</svg>

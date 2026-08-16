@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">프롬프트는 자연어로 설계하는 입력</title><desc id="desc">역할, 목표, 맥락, 제약을 프롬프트로 전달하고 결과를 검토해 다시 질문하는 과정</desc>
+  <rect width="1200" height="560" fill="#fffdf8"/><text x="70" y="80" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">프롬프트는 ‘말 잘 거는 요령’보다 입력 설계에 가깝다</text>
+  <g font-family="Arial, sans-serif"><g fill="#fff" stroke="#d6d3d1" stroke-width="2"><rect x="70" y="145" width="250" height="260" rx="20"/><rect x="475" y="145" width="250" height="260" rx="20"/><rect x="880" y="145" width="250" height="260" rx="20"/></g>
+  <g font-size="27" font-weight="700"><text x="125" y="200" fill="#9a3412">자연어 입력</text><text x="530" y="200" fill="#1d4ed8">언어 모델</text><text x="930" y="200" fill="#047857">결과 검토</text></g>
+  <g font-size="20" fill="#44403c"><text x="105" y="255">역할과 목표</text><text x="105" y="295">필요한 문맥</text><text x="105" y="335">출력 조건과 제약</text><text x="510" y="255">토큰과 문맥을 바탕으로</text><text x="510" y="295">다음 표현을 선택</text><text x="915" y="255">누락된 정보는?</text><text x="915" y="295">모호한 표현은?</text><text x="915" y="335">근거와 조건을 지켰나?</text></g>
+  <g stroke="#78716c" stroke-width="4" fill="none"><path d="M320 275h145"/><path d="M725 275h145"/><path d="M1005 420c0 85-805 85-805 5"/></g><g fill="#78716c"><path d="M465 275l-16-10v20z"/><path d="M870 275l-16-10v20z"/><path d="M200 425l-10 16h20z"/></g><text x="460" y="515" font-size="20" fill="#57534e">검토한 결과를 바탕으로 문맥을 보완하고 다시 질문한다</text></g>
+</svg>

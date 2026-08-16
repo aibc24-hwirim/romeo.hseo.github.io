@@ -1,0 +1,13 @@
+# Local backup folder junction
+강의자료_백업
+강의자료_백업/
+
+# Local-only learning material exports
+assets/js/curriculumData.js
+assets/js/notionMaterialsData.js
+assets/js/notionReplicaData.js
+
+# Local tooling
+__pycache__/
+.DS_Store
+Thumbs.db
